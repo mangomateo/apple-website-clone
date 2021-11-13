@@ -1,3 +1,8 @@
+
+/* ----- ----- 
+  GLOBAL STYLES 
+  ----- ----- */
+
 .App {
   text-align: center;
 }
@@ -35,4 +40,31 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* ----- -----  
+  COMPONENT STYLES
+  ----- ----- */
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #323232;
+  color: rgba(245, 245, 245, 0.611);
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: .3em;
+}
+
+.navbar p {
+  font-size: .75em;
+}
+
+.holiday-shop {
+  background-color: #e34140;
+  color: #fff;
+  margin-top: 0;
+  padding: .3em;
+  font-size: .9em;
 }
