@@ -163,3 +163,60 @@ nav ul {
   font-size: 2em;
   font-weight: 550;
 }
+
+.link-component {
+  text-align: left;
+  font-size: .7em;
+  line-height: 2.5em;
+}
+
+.link-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+#link-container {
+  display: grid;
+  grid-template-areas: 
+    ". shop services store business   values ."
+    ". shop services store education  values ."
+    ". shop services store education  about  ."
+    ". shop account  store education  about  ."
+    ". shop account  store healthcare about  .";
+}
+
+#about {
+  grid-area: about;
+}
+
+#account {
+  grid-area: account;
+}
+
+#store {
+  grid-area: store;
+}
+
+#values {
+  grid-area: values;
+}
+
+#business {
+  grid-area: business;
+}
+
+#education {
+  grid-area: education;
+}
+
+#healthcare {
+  grid-area: healthcare;
+}
+
+#services {
+  grid-area: services;
+}
+
+#shop {
+  grid-area: shop;
+}
