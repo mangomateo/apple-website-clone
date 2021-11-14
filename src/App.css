@@ -88,3 +88,61 @@ nav ul {
   font-size: 1.1em;
 }
 
+#product-gallery {
+  display: grid;
+  margin: 0 2em;
+  grid-template-areas: 
+    "iphone airpods watch"
+    "homepod ipadmini iphonepro"
+    "macbook imac ipadpro";
+  gap: 2em;
+}
+
+.gallery {
+  border-radius: 5%;
+}
+
+.iphone {
+  grid-area: iphone;
+  background-color: #EAF2FC;
+}
+
+.airpods {
+  grid-area: airpods;
+  background-color: #FDEDDF;
+}
+
+.watch {
+  grid-area: watch;
+  background-color: #FBEDF9;
+}
+
+.homepod {
+  grid-area: "homepod";
+  background-color: #FCF2D9;
+}
+
+.ipadmini {
+  grid-area: "ipadmini";
+  background-color: #EEEFFE;
+}
+
+.iphonepro {
+  grid-area: "iphonepro";
+  background-color: #EAF2FC;
+}
+
+.macbook {
+  grid-area: "macbook";
+  background-color: #EAF2FC;
+}
+
+.imac {
+  grid-area: "imac";
+  background-color: #FCF2D9;
+}
+
+.ipadpro {
+  grid-area: "ipadpro";
+  background-color: #E8F6F5;
+}

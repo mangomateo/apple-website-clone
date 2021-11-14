@@ -2,7 +2,7 @@ import iphone13pro from '../../img/snowflake_iphone13pro.png';
 
 const iPhone13Pro = () => {
     return (
-        <div>
+        <div className="gallery iphonepro">
             <img src={iphone13pro} alt="iPhone 13 Pro" />
         </div>
     )
