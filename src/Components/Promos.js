@@ -1,8 +1,11 @@
+import PromoEngrave from "./PromoEngrave";
+import PromoMixMatch from "./PromoMixMatch";
 
 const Promos = () => {
     return (
-        <div>
-            <h1>PROMOS</h1>            
+        <div id="promos">
+            <PromoEngrave />
+            <PromoMixMatch />        
         </div>
     )
 }

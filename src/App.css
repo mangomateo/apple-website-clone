@@ -146,3 +146,20 @@ nav ul {
   grid-area: "ipadpro";
   background-color: #E8F6F5;
 }
+
+#promos {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.engrave,
+.mix-match {
+  flex-basis: 50%;
+  padding: 3em;
+}
+
+.engrave p,
+.mix-match p {
+  font-size: 2em;
+  font-weight: 550;
+}
